@@ -17,7 +17,7 @@ angka_list = []
 while True:
     angka_input = input("Masukkan angka : ")
     if angka_input == "":
-        print("Anda selesai menginputkan angka")
+        print("Anda telah selesai menginputkan angka")
         break
     elif angka_input.isdigit():  # Memastikan input adalah angka
         angka_list.append(int(angka_input))
